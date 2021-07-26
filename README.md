@@ -1,4 +1,4 @@
-# CORA: Cross-lingualOpen-RetrievalAnswer Generation
+# CORA: Cross-lingual Open-Retrieval Answer Generation
 This is the official implementation of the following paper:     
 Akari Asai, Xinyan Yu, Jungo Kasai and Hannaneh Hajishirzi. [One Question Answering Model for Many Languages with Cross-lingual Dense Passage Retrieval](). *Preptint*. 2021. 
 
