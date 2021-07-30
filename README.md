@@ -14,7 +14,7 @@ Our experimental results show state-of-the-art results across two multilingual o
 1. [Overview](#overview)
 2. [Data](#data)
 3. [Installation](#installation)
-4. [Training](#train)
+4. [Training](#training)
 5. [Evaluation](#evaluation)
 6. [Citations and Contact](#citations-and-contact)
 
