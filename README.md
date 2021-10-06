@@ -1,6 +1,6 @@
 # CORA
 This is the official implementation of the following paper:
-Akari Asai, Xinyan Yu, Jungo Kasai and Hannaneh Hajishirzi. [One Question Answering Model for Many Languages with Cross-lingual Dense Passage Retrieval](https://arxiv.org/abs/2107.11976). *Preptint*. 2021. 
+Akari Asai, Xinyan Yu, Jungo Kasai and Hannaneh Hajishirzi. [One Question Answering Model for Many Languages with Cross-lingual Dense Passage Retrieval](https://arxiv.org/abs/2107.11976). *NeurIPS*. 2021. 
 
 ![cora_image](fig/overview_v4.png)
 
@@ -169,11 +169,11 @@ In our paper, we have tested several baselines such as Translate-test or multili
 
 If you find this codebase is useful or use in your work, please cite our paper.
 ```
-@article{
+@inproceedings{
 asai2021cora,
 title={One Question Answering Model for Many Languages with Cross-lingual Dense Passage Retrieval},
 author={Akari Asai and Xinyan Yu and Jungo Kasai and Hannaneh Hajishirzi},
-journal={Arxiv Preprint},
+booktitle={NeurIPS},
 year={2021}
 }
 ```
