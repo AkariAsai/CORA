@@ -3,7 +3,7 @@
 This code is mostly same as the original DPR repository with some minor modifications. The code is based on [Dense Passage Retriever](https://github.com/facebookresearch/DPR) and we modify the code to support more recent version of huggingface transformers. 
 
 ### Installation
-We tested the code with [`transformers==4.2.1`](https://github.com/huggingface/transformers/releases/tag/v4.2.1), and you may find some issues if you use different version of transformers.
+We tested the code with `transformers==3.0.2`, and you may find some issues if you use different version of transformers.
 
 ```
 pip install transformers==3.0.2
