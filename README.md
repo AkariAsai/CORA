@@ -1,6 +1,6 @@
 # CORA
 This is the official implementation of the following paper:
-Akari Asai, Xinyan Yu, Jungo Kasai and Hannaneh Hajishirzi. [One Question Answering Model for Many Languages with Cross-lingual Dense Passage Retrieval](https://arxiv.org/abs/2107.11976). *Preptint*. 2021. 
+Akari Asai, Xinyan Yu, Jungo Kasai and Hannaneh Hajishirzi. [One Question Answering Model for Many Languages with Cross-lingual Dense Passage Retrieval](https://arxiv.org/abs/2107.11976). *NeurIPS*. 2021. 
 
 ![cora_image](fig/overview_v4.png)
 
@@ -43,7 +43,10 @@ Please see the details of each components in each directory.
 
 ## Data
 ### Training data
-We will upload the final training data for mDPR. Please stay tuned! 
+You can download the mDPR train data from [here](https://drive.google.com/drive/folders/17xXq9hnUdpnE6XDHDdr6Wdv0tvOGtS4i?usp=sharing).
+- [Initial train data](https://drive.google.com/file/d/1kyitGIjkrAgjTmMaC23pp6C_VIWn0v8M/view?usp=sharing)
+- [Train data after the first iteration](https://drive.google.com/file/d/11Za61llqxstKhESrSQww-1WqBDNz_OqU/view?usp=sharing)
+- [Final train data (after two iterations)](https://drive.google.com/file/d/1YyG1VjuPN2fh7J_tHEzR1-XDTyEC9cZY/view?usp=sharing)
 
 ### Evaluation data
 We evaluate our models performance on XOR QA and MKQA. 
@@ -166,11 +169,11 @@ In our paper, we have tested several baselines such as Translate-test or multili
 
 If you find this codebase is useful or use in your work, please cite our paper.
 ```
-@article{
+@inproceedings{
 asai2021cora,
 title={One Question Answering Model for Many Languages with Cross-lingual Dense Passage Retrieval},
 author={Akari Asai and Xinyan Yu and Jungo Kasai and Hannaneh Hajishirzi},
-journal={Arxiv Preprint},
+booktitle={NeurIPS},
 year={2021}
 }
 ```
