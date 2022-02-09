@@ -15,7 +15,7 @@ from typing import Tuple
 import torch
 from torch import Tensor as T
 from torch import nn
-from transformers.models.bert.modeling_bert import BertModel
+from transformers.modeling_bert import BertModel
 from transformers import AdamW
 from transformers import AutoTokenizer, AutoConfig
 
