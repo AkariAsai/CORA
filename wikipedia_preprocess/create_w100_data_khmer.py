@@ -32,7 +32,7 @@ def collect_text_data(db_path, start_idx):
         if len(para_tokens) < 20:
             continue
         for i in range(len(para_tokens) // 100):
-            w100_para_text = "".join(para_tokens[100*i:100*(i+1)])
+            w100_para_text = " ".join(para_tokens[100*i:100*(i+1)])
             doc_data.append(
                 {"title": title, "id": count, "text": w100_para_text})
             count += 1
