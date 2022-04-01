@@ -2,12 +2,16 @@
 This is the official implementation of the following paper:
 Akari Asai, Xinyan Yu, Jungo Kasai and Hannaneh Hajishirzi. [One Question Answering Model for Many Languages with Cross-lingual Dense Passage Retrieval](https://arxiv.org/abs/2107.11976). *NeurIPS*. 2021. 
 
+**Important Notice: Recently, we have worked on improving CORA code & documentations for our NAACL 2022 shared task baselies, which can be donwloaded [here](https://github.com/mia-workshop/MIA-Shared-Task-2022). We are planning to update the CORA repository as well, but if you are stating using CORA, potentially using the MIA-Shared-Task baseline codes instead help.**
+
 ![cora_image](fig/overview_v4.png)
 
 In this paper, we introduce **CORA**, a single, unified multilingual open QA model for many languages.      
 CORA consists of two main components: **mDPR** and **mGEN**.     
 **mDPR** retrieves documents from multilingual document collections and **mGEN** generates the answer in the target languages directly instead of using any external machine translation or language-specific retrieval module.      
 Our experimental results show state-of-the-art results across two multilingual open QA dataset: [XOR QA](https://nlp.cs.washington.edu/xorqa/) and [MKQA](https://github.com/apple/ml-mkqa). 
+
+
 
 ##  Contents
 0. [Quick Run on XOR QA](#quick-run-on-xor-qa)
